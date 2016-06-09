@@ -1,0 +1,8 @@
+vendor/
+composer.phar
+phpunit.xml
+composer.lock
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes

@@ -1,0 +1,33 @@
+{
+    "name": "noplanman/php-diaspora-api",
+    "description": "PHP library that can be used as a diaspora* API",
+    "keywords": ["php","diaspora","api"],
+    "license": "MIT",
+    "homepage": "https://github.com/noplanman/php-diaspora-api",
+    "support": {
+        "issues": "https://github.com/noplanman/php-diaspora-api/issues",
+        "source": "https://github.com/noplanman/php-diaspora-api"
+    },
+    "authors": [
+        {
+            "name": "Armando Lüscher",
+            "email": "armando@noplanman.ch",
+            "homepage": "https://noplanman.ch",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "~2.6"
+    },
+    "autoload": {
+        "psr-4": { "DiasporaApi\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "DiasporaApi\\Tests\\": "tests/" }
+    }
+}
